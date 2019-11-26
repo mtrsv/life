@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px grey dotted;
+}
+.cell{
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  border-radius: 50%;
+  transition: background-color linear 100ms;
+}
+.cell:hover {
+  border-color: rgb(34, 150, 245);
+}
+.cell.alive {
+  background-color: darkgrey;
+}
